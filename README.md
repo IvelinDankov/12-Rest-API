@@ -39,3 +39,11 @@
 - [ ] Add json middleware. app.use(express.json())
 - [ ] Make Register id, email, accessToken,
 - [ ] Do Logout!
+
+- [ ] Create first furniture and redirect.
+- [ ] Showed all furniture..
+
+## Edit -> Make edit fn.
+
+- [ ] Edit is easy.
+  - Problem with some order app.use(routes) must be last middleware.

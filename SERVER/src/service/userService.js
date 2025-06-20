@@ -36,8 +36,8 @@ export default {
     const token = generateAuthToken(user);
 
     return {
+      _id: user.id,
       email: user.email,
-      id: user._id,
       accessToken: token,
     };
   },
