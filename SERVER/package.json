@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "VD",
+  "license": "ISC",
+  "description": "Node Server ",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "mongoose": "^8.16.0"
+  }
+}

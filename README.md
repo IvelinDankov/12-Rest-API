@@ -26,4 +26,14 @@
 
 - [ ] Install client and dependency `npm install`
 - [ ] Install vite and setup.
-- [ ]
+- [ ] and make script "dev": "vite".
+- [ ] Installing express and new server node
+- [ ] Starting Client & Server at the same time.
+- [ ] SOP - Same Origin
+- host protocol port. are sane
+- [ ] Different Origin. host, protocol or post are different.
+- [ ] Setting up middleware cors 'Access-Contol-Allow-Origin', '\*'
+- [ ] Make middleware setHeader('Access-Controll-Allow-Origin', '\*')
+
+- [ ] Add cors middleware
+- [ ] Add json middleware. app.use(express.json())
