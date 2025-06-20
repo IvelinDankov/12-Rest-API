@@ -1,13 +1,19 @@
 import { Router } from "express";
+import furnitureService from "../service/furnitureService.js";
 
 const furnitureController = Router();
 
-furnitureController.post("/", (req, res) => {
+furnitureController.post("/", async (req, res) => {
   const furnitureData = req.body;
 
-  console.log(furnitureData);
+  await furnitureService.create(furnitureData);
 
-  res.end();
+  res.redirect("/data/catalog");
+});
+furnitureController.get("/", async (req, res) => {
+  const furnitures = await furnitureService.getAllFurnitures();
+
+  res.json(furnitures);
 });
 
 export default furnitureController;
