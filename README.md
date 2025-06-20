@@ -37,3 +37,5 @@
 
 - [ ] Add cors middleware
 - [ ] Add json middleware. app.use(express.json())
+- [ ] Make Register id, email, accessToken,
+- [ ] Do Logout!
