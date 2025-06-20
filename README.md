@@ -47,3 +47,4 @@
 
 - [ ] Edit is easy.
   - Problem with some order app.use(routes) must be last middleware.
+- [ ] Token is saved in req.header('X-Authorization') not in Cookie..
